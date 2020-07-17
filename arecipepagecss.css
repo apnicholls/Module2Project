@@ -28,8 +28,8 @@
   }
   #recipe_name {
     float: left;
-    padding: 20px;
+    padding: 0px;
     width: 80%;
     background-color: #f3d6d6;
-    height: 100px; /* only for demonstration, should be removed */
+    height: 60px; /* only for demonstration, should be removed */
   }

@@ -2,42 +2,94 @@
 <html >
 
     <head>
-        <title>The Kelly Family Website</title> <!-- kellyhomepagec is the main landing page the CSS assocaited will flow through to several other sub pages-->
+        <title>The Kelly Family Cookbook</title> <!-- kellyhomepagec is the main landing page the CSS associated will flow through to several other sub pages-->
         <link rel="stylesheet" href="kellyhomepagecss.css"> 
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <style>
+        <style>
+            #mainbody {
+                background-color: lightblue;
+                padding: 30px;
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                border: solid;
+                }
+                #welcome {
+                    font-style: inherit;
+                    font-size: 25px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
 
-    </style>
+        </style>
     </head>
 
         <body>
            
                <section>
-                <header> 
-                    <img src="images/kelly-coat-of-arms-irish-heraldry.png" alt="coat" style=width:150px height:150px>
-                 <p>Welcome to the Kelly Family Website</p>
-                </header>
-                   <nav>
-                       <ul>
-                           <li><a href="cookbook.html">Cookbook</a></li>
-                           <li><a href="#">Family</a></li>
-                           <li><a href="#">Pets</a></li>
-                           <li><a href="#">Ancestry</a></li>
-                           <li><a href="#">Events</a></li>
-                       </ul>
-                   </nav>
 
-                   <article>
-                       <h3>Introduction</h3>
-                       <p>This website is intended for sharing information across partcipating Kelly family members. <br>
-                        <hr>
-                        The cookbook originally created and authored by Vince and Quita Kelly is intended to be a living <br>
-                        documenta and hopefully will continue to grow with new and exciting recipes provided by the family.
-                      </p>
-                   </article>
+                <Body>
+                    <Div id="mainbody">
+                    <img src="images/kelly-coat-of-arms-irish-heraldry.png" alt="coat" style=width:150px height:150px>
+                    <p id="welcome" >Welcome to the Kelly Family Cookbook</p>
+
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="thumbnail">
+                                  <img src="/images/appetizer.jpeg" alt="...">
+                                  <div class="caption">
+                                    <h3>Appetizers</h3>
+                                    <p>Let's get those taste buds jumping </p>
+                                    <p><a href="#" class="btn btn-primary" role="button">View</a></p>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="thumbnail">
+                                  <img src="/images/shep.jpeg" alt="...">
+                                  <div class="caption">
+                                    <h3>Main Course</h3>
+                                    <p>Dinner for two or dinner for 20</p>
+                                    <p><a href="cookbook.html" class="btn btn-primary" role="button">View</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="thumbnail">
+                                  <img src="/images/desert.jpeg" alt="...">
+                                  <div class="caption">
+                                    <h3>Deserts</h3>
+                                    <p>No Calories here</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">View</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="thumbnail">
+                                  <img src="/images/egg_nog.jpeg" alt="...">
+                                  <div class="caption">
+                                    <h3>Drinks & More</h3>
+                                    <p>Kelly egg nog makes her clothes fall off</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">View</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+
+                          <Article>
+                              This website has moved a version of the cookbook created by Vince and Quita Kelly on-line so the family can share in the fun of creating some of these famous recipes and also create and submit their own "classics" 
+                          </Article>
+                            
+
+                   </Div>
                </section> 
             <footer>Blah blah blah blah blah</footer>
-            
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      
            
         </body>
 
