@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+
+    <head>
+        <title>The Kelly Family Website</title>      
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="kelly_h_p.css">
+        <link rel="stylesheet" href="arecipepagecss.css">
+        <style>
+            form {
+                width: 60%;
+                margin: 0 auto;
+                background-color: green;
+                border: solid;
+               border-style: outset;
+                text-align: center;
+                border-radius: 25px;
+                background: #73AD21
+
+            }
+        </style>
+    </head>
+
+
+        <body>
+        
+        <Div>
+          <header>
+          <a id="home" href="kellyhomepage.html" alt="home" > Home</a>  
+          <h3>Kelly Cookbook - Appetizers</h3>
+          </header>
+
+          <form action="https://formspree.io/mqkygodk" method="POST" id="form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value=""><br>
+            <label for="recipename">Recipe Name</label><br>
+            <input type="text" id="recipename" name="rname" value=""><br><br>
+            <label for="ackname">Acknowledments</label><br>
+            <input type="text" id="ackname" name="aname" value=""><br><br>
+            <label> Ingredients</label><br>
+          <textarea rows="8" cols="100" name="Ingredients" id="ing" form="form" ></textarea>
+          <br><br>
+          <label> Description </label><br>
+          <textarea rows="8" cols="100" name="Description" id="desc" form="form" ></textarea>
+          <br>
+          <br>
+            <input type="submit" value="Submit">
+          </form>
+          <br>
+        </div>
+
+                                 
+          
+                         
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                        
+            
+        </body>
+
+</html>

@@ -1,9 +1,7 @@
 
-  body {
-    background-color: rgb(199, 156, 156);
-  }
+
   header {
-    /* background-color: #666; */
+    background-color: rgb(146, 135, 135);
     padding: 25px;
     text-align: center;
     font-size: 35px;
@@ -35,7 +33,7 @@ section {
     float: left;
     width: 15%;
     height: 600px;
-    /* background-color: chartreuse; */
     border-right: solid;
+    text-align: center;
 
   }
