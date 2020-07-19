@@ -10,14 +10,14 @@
             form {
                 width: 60%;
                 margin: 0 auto;
-                background-color: green;
                 border: solid;
                border-style: outset;
                 text-align: center;
                 border-radius: 25px;
-                background: #73AD21
-
+                background: #9c9e9a
             }
+
+
         </style>
     </head>
 
@@ -26,9 +26,10 @@
         
         <Div>
           <header>
-          <a id="home" href="kellyhomepage.html" alt="home" > Home</a>  
-          <h3>Kelly Cookbook - Appetizers</h3>
+            <a id="home" href="kellyhomepage.html" > <img src= "images/kelly-coat-of-arms-irish-heraldry.png"  alt="Home" style="width: 60px; height:60px";></a>
+          <h3>Kelly Cookbook - Recipe Submission</h3>
           </header>
+          <br>
 
           <form action="https://formspree.io/mqkygodk" method="POST" id="form">
             <label for="name">Name:</label><br>
@@ -38,10 +39,10 @@
             <label for="ackname">Acknowledments</label><br>
             <input type="text" id="ackname" name="aname" value=""><br><br>
             <label> Ingredients</label><br>
-          <textarea rows="8" cols="100" name="Ingredients" id="ing" form="form" ></textarea>
+          <textarea rows="8" cols="60" name="Ingredients" id="ing" form="form" ></textarea>
           <br><br>
           <label> Description </label><br>
-          <textarea rows="8" cols="100" name="Description" id="desc" form="form" ></textarea>
+          <textarea rows="8" cols="60" name="Description" id="desc" form="form" ></textarea>
           <br>
           <br>
             <input type="submit" value="Submit">
