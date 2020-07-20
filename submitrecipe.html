@@ -4,8 +4,8 @@
     <head>
         <title>The Kelly Family Website</title>      
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="kelly_h_p.css">
-        <link rel="stylesheet" href="arecipepagecss.css">
+        <link rel="stylesheet" href="/css/kelly_h_p.css">
+        <link rel="stylesheet" href="/css/arecipepagecss.css">
         <style>
             form {
                 width: 60%;
@@ -33,21 +33,29 @@
 
           <form action="https://formspree.io/mqkygodk" method="POST" id="form">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" value=""><br>
+            <input type="text" id="name" name="name" required value=""><br>
             <label for="recipename">Recipe Name</label><br>
-            <input type="text" id="recipename" name="rname" value=""><br><br>
+            <input type="text" id="recipename" name="rname" required value=""><br><br>
             <label for="ackname">Acknowledments</label><br>
             <input type="text" id="ackname" name="aname" value=""><br><br>
             <label> Ingredients</label><br>
-          <textarea rows="8" cols="60" name="Ingredients" id="ing" form="form" ></textarea>
+          <textarea rows="8" cols="60" name="Ingredients" id="ing" form="form" required ></textarea>
           <br><br>
           <label> Description </label><br>
-          <textarea rows="8" cols="60" name="Description" id="desc" form="form" ></textarea>
+          <textarea rows="8" cols="60" name="Description" id="desc" form="form" required ></textarea>
           <br>
           <br>
             <input type="submit" value="Submit">
           </form>
           <br>
+
+          <div class="container">
+            <ul class="list-inline">
+              <li><a href="kellyhomepage2.html">Home</a></li>
+              <li><a href="appetizers.html">Appetizers</a></li>
+              <li><a href="submitrecipe.html">Submit Recipe</a></li>
+            </ul>
+
         </div>
 
                                  
